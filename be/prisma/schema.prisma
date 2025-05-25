@@ -1,0 +1,52 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id String @id @default(uuid()) @map("_id")
+  email String  @unique
+  password String
+  username  String
+
+  chat Chat[]
+}
+
+model Chat {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  createdAt DateTime @default(now())
+  message String
+  creatorId String @default("not-authored")
+  reply String?
+  mood  String
+  recomendation String?
+  reason String?
+
+  creator User @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+}
+
+model Food {
+  id                  String @id @default(auto()) @map("_id") @db.ObjectId
+  name                String
+  description         String
+  mood                String
+  reason              String
+  ingredients         String
+  difficulty          String
+  prepTime            String
+  tags                String[]
+  nutritionalBenefits String
+  availability        String
+  priceRange          String
+}
+
+model Mood {
+  id                  String @id @default(auto()) @map("_id") @db.ObjectId
+  mood String 
+  history String[]
+  rekomendasiMakanan String
+}

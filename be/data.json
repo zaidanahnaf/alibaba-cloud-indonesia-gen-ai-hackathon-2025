@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Grilled Chicken Salad",
+    "description": "A healthy and protein-rich salad with grilled chicken, vegetables, and a light dressing.",
+    "mood": "Energetic",
+    "reason": "Boosts energy and keeps you full",
+    "ingredients": "Grilled chicken, lettuce, cherry tomatoes, cucumber, olive oil, lemon juice",
+    "difficulty": "Easy",
+    "prepTime": "15 minutes",
+    "tags": ["high-protein", "low-carb", "gluten-free"],
+    "nutritionalBenefits": "Rich in protein, vitamins A and C, and healthy fats",
+    "availability": "Year-round",
+    "priceRange": "Medium"
+  },
+  {
+    "name": "Oatmeal with Berries",
+    "description": "Warm oatmeal topped with fresh berries and a drizzle of honey.",
+    "mood": "Comforting",
+    "reason": "Perfect for cozy mornings or stressful days",
+    "ingredients": "Oats, milk, strawberries, blueberries, honey",
+    "difficulty": "Very Easy",
+    "prepTime": "10 minutes",
+    "tags": ["vegan", "fiber-rich", "heart-healthy"],
+    "nutritionalBenefits": "High in fiber, antioxidants, and supports heart health",
+    "availability": "Year-round",
+    "priceRange": "Low"
+  },
+  {
+    "name": "Spaghetti Bolognese",
+    "description": "Classic Italian pasta with rich tomato and beef sauce.",
+    "mood": "Satisfied",
+    "reason": "A fulfilling and hearty meal",
+    "ingredients": "Spaghetti, ground beef, tomatoes, onion, garlic, herbs",
+    "difficulty": "Medium",
+    "prepTime": "30 minutes",
+    "tags": ["comfort-food", "high-calorie", "family-meal"],
+    "nutritionalBenefits": "Good source of protein and iron",
+    "availability": "Year-round",
+    "priceRange": "Medium"
+  },
+  {
+    "name": "Avocado Toast",
+    "description": "Crispy toast topped with creamy avocado and optional toppings.",
+    "mood": "Relaxed",
+    "reason": "Simple and satisfying",
+    "ingredients": "Bread, avocado, lemon juice, chili flakes, salt",
+    "difficulty": "Very Easy",
+    "prepTime": "5 minutes",
+    "tags": ["vegan", "quick", "healthy-fat"],
+    "nutritionalBenefits": "High in healthy fats and fiber",
+    "availability": "Year-round",
+    "priceRange": "Low"
+  }
+]

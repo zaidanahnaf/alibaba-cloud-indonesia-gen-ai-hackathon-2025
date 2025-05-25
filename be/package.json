@@ -1,0 +1,42 @@
+{
+  "name": "hackathon-alibaba",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node dist/index.ts",
+    "dev": "ts-node src/index.ts",
+    "start": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.27.0",
+    "express": "^5.1.0",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.10",
+    "npm": "^11.4.1",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.8.2",
+    "@types/bcrypt": "^5.0.2",
+    "ali-oss": "^6.23.0",
+    "axios": "^1.9.0",
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "mongodb": "^6.16.0",
+    "mongoose": "^8.15.0",
+    "openai": "^4.103.0",
+    "prisma": "^6.8.2",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}

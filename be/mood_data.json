@@ -1,0 +1,452 @@
+[
+  {
+    "mood": "senang",
+    "history": [
+      "pizza",
+      "burger",
+      "french fries"
+    ],
+    "rekomendasiMakanan": "spaghetti"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "soto",
+      "nasi goreng",
+      "ayam bakar"
+    ],
+    "rekomendasiMakanan": "ramen"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "donat",
+      "milkshake",
+      "popcorn"
+    ],
+    "rekomendasiMakanan": "tteokbokki"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi padang",
+      "rendang",
+      "es teh manis"
+    ],
+    "rekomendasiMakanan": "sate ayam"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "ramen",
+      "takoyaki",
+      "onigiri"
+    ],
+    "rekomendasiMakanan": "sushi"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "bakso",
+      "mie ayam",
+      "jus alpukat"
+    ],
+    "rekomendasiMakanan": "capcay kuah"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "keripik",
+      "cokelat",
+      "es krim"
+    ],
+    "rekomendasiMakanan": "martabak manis"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi uduk",
+      "ayam goreng",
+      "tempe orek"
+    ],
+    "rekomendasiMakanan": "gudeg"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "kebab",
+      "falafel",
+      "roti prata"
+    ],
+    "rekomendasiMakanan": "nasi kebuli"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "ikan bakar",
+      "lalapan",
+      "sayur asem"
+    ],
+    "rekomendasiMakanan": "sop buntut"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "nachos",
+      "cola",
+      "kentang goreng"
+    ],
+    "rekomendasiMakanan": "hot dog"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi goreng kambing",
+      "sate kambing",
+      "sop kambing"
+    ],
+    "rekomendasiMakanan": "gulai kambing"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "ayam geprek",
+      "es jeruk",
+      "kerupuk"
+    ],
+    "rekomendasiMakanan": "pecel lele"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "mie instan",
+      "telur rebus",
+      "kerupuk"
+    ],
+    "rekomendasiMakanan": "sup ayam"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "kerupuk",
+      "roti tawar",
+      "kopi instan"
+    ],
+    "rekomendasiMakanan": "croissant"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi liwet",
+      "ikan asin",
+      "lalapan"
+    ],
+    "rekomendasiMakanan": "nasi timbel"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "boba tea",
+      "dimsum",
+      "wonton noodle"
+    ],
+    "rekomendasiMakanan": "hainan chicken rice"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "teh hangat",
+      "roti bakar",
+      "telur dadar"
+    ],
+    "rekomendasiMakanan": "omelet keju"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "donat",
+      "sereal",
+      "kue bolu"
+    ],
+    "rekomendasiMakanan": "waffle"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "rawon",
+      "tempe goreng",
+      "nasi putih"
+    ],
+    "rekomendasiMakanan": "lontong balap"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "bakmi jawa",
+      "wedang ronde",
+      "martabak telur"
+    ],
+    "rekomendasiMakanan": "kwetiau goreng"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "susu hangat",
+      "kacang rebus",
+      "ubi goreng"
+    ],
+    "rekomendasiMakanan": "kolak pisang"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "churros",
+      "milk tea",
+      "cokelat panas"
+    ],
+    "rekomendasiMakanan": "mochi"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi kuning",
+      "telur balado",
+      "ayam serundeng"
+    ],
+    "rekomendasiMakanan": "opor ayam"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "pancake",
+      "jus mangga",
+      "omelet"
+    ],
+    "rekomendasiMakanan": "crepes"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "mie kuah",
+      "roti sobek",
+      "pisang goreng"
+    ],
+    "rekomendasiMakanan": "sup krim jamur"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "keripik singkong",
+      "permen",
+      "kopi kaleng"
+    ],
+    "rekomendasiMakanan": "banana bread"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "soto ayam",
+      "perkedel",
+      "tempe bacem"
+    ],
+    "rekomendasiMakanan": "tongseng"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "es krim",
+      "milkshake",
+      "cupcake"
+    ],
+    "rekomendasiMakanan": "cheesecake"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "nasi putih",
+      "sayur lodeh",
+      "ikan pindang"
+    ],
+    "rekomendasiMakanan": "sayur bening"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "wafer",
+      "sereal",
+      "popcorn"
+    ],
+    "rekomendasiMakanan": "donat isi"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi campur bali",
+      "ayam betutu",
+      "sambal matah"
+    ],
+    "rekomendasiMakanan": "bebek goreng"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "tteokbokki",
+      "corn dog",
+      "soju soda"
+    ],
+    "rekomendasiMakanan": "kimbab"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "roti isi",
+      "teh manis",
+      "bubur kacang hijau"
+    ],
+    "rekomendasiMakanan": "bubur ayam"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "biskuit",
+      "teh tarik",
+      "kopi sachet"
+    ],
+    "rekomendasiMakanan": "roti pisang cokelat"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi bebek",
+      "rawon",
+      "tahu goreng"
+    ],
+    "rekomendasiMakanan": "semur jengkol"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "ayam teriyaki",
+      "chawan mushi",
+      "yakitori"
+    ],
+    "rekomendasiMakanan": "salmon don"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "nasi putih",
+      "telur mata sapi",
+      "sambal korek"
+    ],
+    "rekomendasiMakanan": "ayam woku"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "kerupuk",
+      "permen karet",
+      "snack jagung"
+    ],
+    "rekomendasiMakanan": "es doger"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi megono",
+      "telur dadar",
+      "sayur asem"
+    ],
+    "rekomendasiMakanan": "lodeh terong"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "salad buah",
+      "jus jeruk",
+      "roti gandum"
+    ],
+    "rekomendasiMakanan": "smoothie bowl"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "nasi goreng telur",
+      "kerupuk udang",
+      "sambal"
+    ],
+    "rekomendasiMakanan": "ayam kecap"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "kue cucur",
+      "klepon",
+      "serabi"
+    ],
+    "rekomendasiMakanan": "kue lapis"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "nasi lengko",
+      "tahu goreng",
+      "kerupuk mie"
+    ],
+    "rekomendasiMakanan": "opor tahu"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "tahu bulat",
+      "es teh tarik",
+      "martabak mini"
+    ],
+    "rekomendasiMakanan": "sosis bakar"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "kolak ubi",
+      "pisang rebus",
+      "susu jahe"
+    ],
+    "rekomendasiMakanan": "jenang sumsum"
+  },
+  {
+    "mood": "bosan",
+    "history": [
+      "energy bar",
+      "minuman isotonik",
+      "permen mint"
+    ],
+    "rekomendasiMakanan": "sandwich tuna"
+  },
+  {
+    "mood": "lapar",
+    "history": [
+      "gado-gado",
+      "tahu isi",
+      "es campur"
+    ],
+    "rekomendasiMakanan": "ketoprak"
+  },
+  {
+    "mood": "senang",
+    "history": [
+      "nasi hainam",
+      "telur asin",
+      "bok choy"
+    ],
+    "rekomendasiMakanan": "dim sum"
+  },
+  {
+    "mood": "sedih",
+    "history": [
+      "bubur sumsum",
+      "tahu pong",
+      "jahe hangat"
+    ],
+    "rekomendasiMakanan": "sup kacang merah"
+  }
+]
