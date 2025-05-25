@@ -1,0 +1,98 @@
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+
+  .avatar-floating {
+    position: fixed;
+    top: 0px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    transition: top 0.3s ease;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .avatar.thinking {
+    animation: bounce 1s infinite;
+  }
+
+  .avatar-face {
+    position: relative;
+  }
+
+  .eyes {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .eye {
+    width: 8px;
+    height: 8px;
+    background: #333;
+    border-radius: 50%;
+    transition: height 0.3s ease;
+  }
+
+  .eye.closed {
+    height: 2px;
+    border-radius: 0;
+  }
+
+  .mouth {
+    width: 12px;
+    height: 6px;
+    border: 2px solid #333;
+    border-top: none;
+    border-radius: 0 0 12px 12px;
+    margin: 0 auto;
+  }
+
+  .thinking-bubbles {
+    position: absolute;
+    top: -30px;
+    right: -10px;
+    display: flex;
+    gap: 4px;
+  }
+
+  .bubble {
+    width: 6px;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    animation: bubble 1.5s infinite;
+  }
+
+  .bubble:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+
+  .bubble:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+  }
+
+  @keyframes bubble {
+    0%, 100% { opacity: 0; transform: translateY(0); }
+    50% { opacity: 1; transform: translateY(-10px); }
+  }

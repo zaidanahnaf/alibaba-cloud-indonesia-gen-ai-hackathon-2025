@@ -1,0 +1,92 @@
+.app {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  .food-listing-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+    color: #374151;
+    margin-bottom: 0.5rem;
+  }
+
+  .header p {
+    color: #6b7280;
+    font-size: 1.1rem;
+  }
+
+  .food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .food-card {
+    background: white;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+
+  .food-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .food-image-placeholder {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+
+  .food-card h3 {
+    color: #374151;
+    margin-bottom: 0.5rem;
+  }
+
+  .food-card p {
+    color: #6b7280;
+    line-height: 1.5;
+  }
+
+  .idle-status {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+  }
+
+  @media (max-width: 768px) {
+    .food-listing-container {
+      padding: 1rem;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+    }
+
+    .food-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
